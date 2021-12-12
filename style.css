@@ -1,0 +1,1169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: monospace;
+	background: rgb(221, 219, 219);
+}
+header{
+	width: 100%;
+	height: 60px;
+	background: rgb(56, 55, 55);
+	position: fixed;
+}
+a{
+	text-decoration: none;
+}
+header .title{
+	color: rgb(233, 233, 14);
+	font-size: 40px;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 6px;
+}
+nav{
+	margin-left: 600px;
+	display: inline;
+}
+nav button{
+	border: 1px solid #015d5a;
+	background: linear-gradient(to right, #ffa17f, #fbb69c);
+	border-radius: 10px;
+	font-size: 15px;
+	width: 200px;
+	height: 34px;
+	color: black;
+	margin-right: 10px;
+	margin-top: 13px;
+}
+nav button:hover{
+	opacity: 70%;
+}
+.line{
+	width: 30px;
+	height: 5px;
+	border: none;
+	border-radius: 20px;
+	background: white;
+	display: block;
+	margin-top: 3px;
+}
+.drop{
+	float: left;
+	margin-left: 50px;
+	margin-top: 7px;
+	background: none;
+	border: none;
+	width: 205px;
+	height: 35px;
+	position: absolute;
+	padding: 10px;
+}
+.drop .katalog{
+	position: absolute;
+	top: 13px;
+	left: 50px;
+	font-size: 20px;
+	color: white;
+}
+.drop h3:hover{
+	color:rgb(167, 165, 165);
+}
+.icon{
+	width: 50px;
+	position: absolute;
+	left: 300px;
+	top: 10px;
+}
+.drop:hover{
+	background: rgb(70, 69, 69);
+	border-radius: 0px;
+}
+.dropdown{
+	display: inline-block;
+	position: relative;
+}
+.dropdown-content{
+	display: none;
+	list-style-type: none;
+	background: white;
+	padding-top: 10px;
+	font-size: 20px;
+	width: 220px;
+	height: 600px;
+}
+.dropdown-content h5{
+	float: left;
+	width: 120px;
+	height: 18px;
+	color: black;
+	margin-top: 16px;
+	margin-left: 20px;
+}
+.dropdown-content div:hover h5{
+	color: rgb(65, 231, 154);
+}
+.drop:hover .dropdown-content{
+	border-top: none;
+	border-right: 3px dashed rgb(233, 233, 14);
+	border-bottom: 3px dashed rgb(233, 233, 14);
+	border-left: 3px dashed rgb(233, 233, 14);
+	display: inline-block;
+	position: fixed;
+	top: 60px;
+	left: 50px;
+}
+.dropdown-content img{
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 30px;
+}
+.dropdown-content div{
+	float: left;
+	width: 220px;
+	margin-bottom: 25px;
+	height: 50px;
+}
+.dropdown-content div:hover{
+	background: rgb(199, 53, 53);
+}
+.drop:hover .line{
+	background: black;
+}
+.button{
+	border: none;
+	background: rgb(233, 233, 14);
+	border-radius: 5px;
+	font-size: 15px;
+	width: 100px;
+	height: 35px;
+	margin-top: 12px;
+}
+
+/*MAIN AND OPTIMIZATION*/
+
+main{
+	padding-top: 100px;
+	width: 100%;
+	height: auto;
+}
+main h6{
+	color: red;
+}
+main h1{
+	margin-bottom: 25px;
+}
+main h4, h5, h6{
+	margin-left: 10px;
+}
+main h4{
+	margin-bottom: 15px;
+}
+main h5 a:hover{
+	color: rgb(47, 160, 107);
+}
+main a{
+	color: black;
+}
+main i{
+	font-size: 40px;
+}
+main a:hover{
+	color: green;
+}
+main button a{
+	color: black;
+}
+main .section3{
+	margin-top: 35px;
+}
+.telephone, .monitors, .mouses, .computers, .more-content-telephones, .more-content-computers, .keyboards, .tablets, .playstation, .more-content-monitors, .more-content-keyboards, .more-content-mouses, .more-content-tablets, .more-content-playstation{
+	margin-left: 350px;
+}
+.telephone img, .monitors img, .mouses img, .computers img, .more-content-telephones img, .more-content-computers img, .keyboards img, .tablets img, .playstation img, .more-content-monitors img, .more-content-keyboards img, .more-content-mouses img, .more-content-tablets img, .more-content-playstation img{
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.button1{
+	float: right;
+	border: none;
+	background: rgb(233, 233, 14);
+	border-radius: 5px;
+	font-size: 20px;
+	padding-top: 10px;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.button2{
+	position: absolute;
+	border: none;
+	background: #00b9ff;
+	border-radius: 5px;
+	font-size: 20px;
+	padding-top: 10px;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	margin-left: 10px;
+}
+.button3{
+	position: absolute;
+	border: none;
+	background: #00b9ff;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-top: 3px;
+	padding-top: 10px;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	margin-left: 200px;
+}
+.b{
+	font-size: 55px;
+	margin-bottom: 20px;
+}
+.topimg{
+	width: 600px;
+	margin-bottom: 30px;
+}
+.title1{
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+
+/*OTHER*/
+
+.nav1{
+	margin-left: 50px;
+	font-size: 24px;
+	width: 225px;
+	float: left;
+}
+.nav1 li:hover{
+	background: rgb(194, 163, 163);
+}
+.nav1 a:hover{
+	color:rgb(109, 32, 13);
+}
+.nav1 li{
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+.nav1 hr{
+	position: fixed;
+	transform: rotate(90deg);
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 180px;
+	width: 350px;
+	height: 5px;
+	border: none;
+	border-radius: 3px;
+	background: rgb(149, 147, 147);
+}
+.nav1 ul{
+	list-style-type: none;
+	line-height: 50px;
+}
+.nav1 .active{
+	border: 3px solid green;
+}
+.pronas{
+	margin-left: 400px;
+	font-size: 30px;
+	width: 800px;
+}
+.contacts{
+	margin-left: 400px;
+	font-size: 30px;
+	width: 800px;
+}
+.contacts a{
+	display: flex;
+	width: 260px;
+	margin-bottom: 15px;
+}
+.contacts a div{
+	position: absolute;
+	margin-left: 50px;
+}
+.vidguky{
+	margin-left: 400px;
+	font-size: 30px;
+	width: 800px;
+}
+.blocks{
+	display: flex;
+	width: 1000px;
+}
+.blocks div{
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 30px;
+	border: 3px solid silver;
+	height: 110px;
+	width: 600px;
+	margin-right: 30px;
+}
+.vidguky p{
+	font-size: 20px;
+}
+.vidguky .b{
+	border: none;
+}
+.vidguky img{
+	margin-right: 20px;
+	float: left;
+	width: 100px;
+}
+.support{
+	margin-left: 400px;
+	font-size: 30px;
+	width: 800px;
+}
+.support p{
+	margin-bottom: 20px;
+}
+.support img{
+	position: absolute;
+	top: 140px;
+	border-radius: 10px;
+	width: 600px;
+	left: 1200px;
+}
+.support .contacts{
+	margin-left: 0;
+}
+.gifka{
+	position: absolute;
+	top: 180px;
+	width: 500px;
+	left: 1300px;
+	border-radius: 5px;
+}
+
+/*TELEPHONE*/
+
+.telephone{
+	font-size: 25px;
+	padding-top: 10px;
+	margin-bottom: 50px;
+	width: 1200px;
+	height: 1209px;
+	background:white;
+}
+.telephone .section2{
+	display: flex;
+	width: 280px;
+	height: 500px;
+	margin-left: 115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.telephone .section2 div{
+	margin-right: 60px;
+	height: 500px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+.telephone .section3{
+	display: flex;
+	width: 280px;
+	height: 500px;
+	margin-left: 115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.telephone .section3 div{
+	height: 500px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+
+/*COMPUTERS*/
+
+.computers{
+	font-size: 25px;
+	padding-top: 10px;
+	margin-bottom: 50px;
+	width: 1200px;
+	height: 915px;
+	background:white;
+}
+.computers .section2{
+	display: flex;
+	width: 280px;
+	height: 353px;
+	margin-left: 115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.computers .section2 div{
+	height: 353px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+.computers .section3{
+	display: flex;
+	width: 280px;
+	height: 353px;
+	margin-left: 115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.computers .section3 div{
+	height: 353px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+
+/*MONITORS*/
+
+.monitors{
+	font-size: 25px;
+	padding-top: 10px;
+	margin-bottom: 50px;
+	width: 1200px;
+	height: 779px;
+	background:white;
+}
+.monitors .section2{
+	display: flex;
+	width: 280px;
+	height: 285px;
+	margin-left: 115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.monitors .section2 div{
+	height: 285px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+.monitors .section3{
+	display: flex;
+	width: 280px;
+	height: 285px;
+	margin-left: 115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.monitors .section3 div{
+	height: 285px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+/*KEYBOARDS*/
+
+.keyboards{
+	font-size: 25px;
+	padding-top: 10px;
+	margin-bottom: 50px;
+	width: 1200px;
+	height: 719px;
+	background:white;
+}
+.keyboards .section2{
+	display: flex;
+	width: 280px;
+	height: 255px;
+	margin-left: 115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.keyboards .section2 div{
+	height: 255px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+.keyboards .section3{
+	display: flex;
+	width: 280px;
+	height: 255px;
+	margin-left: 115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.keyboards .section3 div{
+	height: 255px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+
+/*MOUSES*/
+
+.mouses{
+	font-size: 25px;
+	padding-top: 10px;
+	margin-bottom: 50px;
+	width: 1200px;
+	height: 989px;
+	background:white;
+}
+.mouses .section2{
+	display: flex;
+	width: 280px;
+	height: 390px;
+	margin-left: 115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.mouses .section2 div{
+	margin-right: 60px;
+	height: 390px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+.mouses .section3{
+	display: flex;
+	width: 280px;
+	height: 390px;
+	margin-left: 115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.mouses .section3 div{
+	height: 390px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+
+/*TABLETS*/
+
+.tablets{
+	font-size: 25px;
+	padding-top: 10px;
+	margin-bottom: 50px;
+	width: 1200px;
+	height: 735px;
+	background:white;
+}
+.tablets .section2{
+	display: flex;
+	width: 280px;
+	height: 263px;
+	margin-left: 115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.tablets .section2 div{
+	margin-right: 60px;
+	height: 263px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+.tablets .section3{
+	display: flex;
+	width: 280px;
+	height: 263px;
+	margin-left: 115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.tablets .section3 div{
+	height: 263px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+
+/*PLAYSTATION*/
+
+.playstation{
+	font-size: 25px;
+	padding-top: 10px;
+	width: 1200px;
+	height: 909px;
+	background:white;
+}
+.playstation .section2{
+	display: flex;
+	width: 280px;
+	height: 350px;
+	margin-left: 115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.playstation .section2 div{
+	margin-right: 60px;
+	height: 350px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+.playstation .section3{
+	display: flex;
+	width: 280px;
+	height: 350px;
+	margin-left: 115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.playstation .section3 div{
+	height: 350px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+
+/*MORE-CONTENT-TELEPHONES*/
+
+.more-content-telephones{
+	font-size: 25px;
+	padding-top: 10px;
+	width: 1200px;
+	height: 2276px;
+	background:white;
+}
+.more-content-telephones .section2{
+	display: flex;
+	width: 280px;
+	height: 502px;
+	margin-left: 115px;
+	margin-right: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.more-content-telephones .section2 div{
+	height: 500px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+.more-content-telephones .section3{
+	display: flex;
+	width: 280px;
+	height: 502px;
+	margin-top: 60px;
+	margin-left: 115px;
+	margin-right: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.more-content-telephones .section3 div{
+	height: 500px;
+	margin-right: 60px;
+	background:white;
+	border: 1px 
+	solid rgb(194, 193, 193);
+}
+
+/*MORE-CONTENT-COMPUTERS*/
+
+.more-content-computers{
+	font-size: 25px;
+	padding-top: 10px;
+	width: 1200px;
+	height: 1680px;
+	background:white;
+}
+.more-content-computers .section2{
+	display: flex;
+	width: 280px;
+	height: 353px;
+	margin-left: 115px;
+	margin-right: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.more-content-computers .section2 div{
+	height: 353px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+.more-content-computers a:hover{
+	color: rgb(47, 160, 107);
+}
+.more-content-computers .section3{
+	display: flex;
+	width: 280px;
+	height: 353px;
+	margin-top: 60px;
+	margin-left: 115px;
+	margin-right: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.more-content-computers .section3 div{
+	height: 353px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+
+/*MORE-CONENT-MONITOS*/
+
+.more-content-monitors{
+	font-size: 25px;
+	padding-top: 10px;
+	width: 1200px;
+	height: 1408px;
+	background:white;
+}
+.more-content-monitors .section2{
+	display: flex;
+	width: 280px;
+	height: 285px;
+	margin-left: 115px;
+	margin-right: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.more-content-monitors .section2 div{
+	height: 285px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+.more-content-monitors a:hover{
+	color: rgb(47, 160, 107);
+}
+.more-content-monitors .section3{
+	display: flex;
+	width: 280px;
+	height: 285px;
+	margin-top: 60px;
+	margin-left: 115px;
+	margin-right: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.more-content-monitors .section3 div{
+	height: 285px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+
+/*MORE-CONTENT-KEYBOARDS*/
+
+.more-content-keyboards{
+	font-size: 25px;
+	padding-top: 10px;
+	width: 1200px;
+	height: 1288px;
+	background:white;
+}
+.more-content-keyboards .section2{
+	display: flex;
+	width: 280px;
+	height: 255px;
+	margin-left: 115px;
+	margin-right: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.more-content-keyboards .section2 div{
+	height: 255px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+.more-content-keyboards a:hover{
+	color: rgb(47, 160, 107);
+}
+.more-content-keyboards .section3{
+	display: flex;
+	width: 280px;
+	height: 255px;
+	margin-top: 60px;
+	margin-left: 115px;
+	margin-right: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.more-content-keyboards .section3 div{
+	height: 255px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+
+/*MORE-CONTENT-MOUSES*/
+
+.more-content-mouses{
+	font-size: 25px;
+	padding-top: 10px;
+	width: 1200px;
+	height: 1828px;
+	background:white;
+}
+.more-content-mouses .section2{
+	display: flex;
+	width: 280px;
+	height: 390px;
+	margin-left: 115px;
+	margin-right: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.more-content-mouses .section2 div{
+	height: 390px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+.more-content-mouses a:hover{
+	color: rgb(47, 160, 107);
+}
+.more-content-mouses .section3{
+	display: flex;
+	width: 280px;
+	height: 390px;
+	margin-top: 60px;
+	margin-left: 115px;
+	margin-right: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.more-content-mouses .section3 div{
+	height: 390px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+
+/*MORE-CONTENT-TABLETS*/
+
+.more-content-tablets{
+	font-size: 25px;
+	padding-top: 10px;
+	width: 1200px;
+	height: 1320px;
+	background:white;
+}
+.more-content-tablets .section2{
+	display: flex;
+	width: 280px;
+	height: 263px;
+	margin-left: 115px;
+	margin-right: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.more-content-tablets .section2 div{
+	height: 263px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+.more-content-tablets a:hover{
+	color: rgb(47, 160, 107);
+}
+.more-content-tablets .section3{
+	display: flex;
+	width: 280px;
+	height: 263px;
+	margin-top: 60px;
+	margin-left: 115px;
+	margin-right: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.more-content-tablets .section3 div{
+	height: 263px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+
+/*MORE-CONTENT-PLAYSTATION*/
+
+.more-content-playstation{
+	font-size: 25px;
+	padding-top: 10px;
+	width: 1200px;
+	height: 1660px;
+	background:white;
+}
+.more-content-playstation .section2{
+	display: flex;
+	width: 280px;
+	height: 348px;
+	margin-left: 115px;
+	margin-right: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.more-content-playstation .section2 div{
+	height: 348px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+.more-content-playstation a:hover{
+	color: rgb(47, 160, 107);
+}
+.more-content-playstation .section3{
+	display: flex;
+	width: 280px;
+	height: 348px;
+	margin-top: 60px;
+	margin-left: 115px;
+	margin-right: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.more-content-playstation .section3 div{
+	height: 348px;
+	margin-right: 60px;
+	background:white;
+	border: 1px solid rgb(194, 193, 193);
+}
+
+/*FOOTER*/
+
+footer{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+footer hr{
+	width: 1200px;
+	height: 5px;
+	border: none;
+	border-radius: 5px;
+	background: rgb(56, 55, 55);
+}
+footer h2{
+	margin-top: 20px;
+}
+
+/*BUY-MENU*/
+
+.buy-menu{
+	width: 1803px;
+	height: 1000px;
+	padding-top: 30px;
+	padding-left: 100px;
+	background: white;
+}
+.buy-menu img{
+	width: 300px;
+	margin-top: 50px;
+}
+.buy-menu h1{
+	font-size: 35px;
+}
+.characteristics{
+	padding-left: 30px;
+	margin-right: 735px;
+	margin-top: 60px;
+	float: right;
+	width: 700px;
+	height: 500px;
+	border: 5px dashed rgb(165, 160, 160);
+}
+.characteristics p{
+	font-size: 20px;
+	line-height: 35px;
+}
+.characteristics .button1{
+	margin-top: 3px;
+}
+.price{
+	margin-top: 5px;
+	line-height: 15px;
+	float: left;
+}
+.characteristics h6{
+	margin-left: 0;
+	font-size: 18px;
+}
+.characteristics h4{
+	margin-left: 0;
+	font-size: 30px;
+}
+.video{
+	position: absolute;
+	width: 600px;
+	top: 235px;
+	left: 1200px;
+}
+.vidimg img{
+	position: absolute;
+	width: 650px;
+	top: 165px;
+	left: 1200px;
+}
+
+/*BUY*/
+
+.buy{
+	padding-top: 50px;
+	height: 1000px;
+	padding-left: 100px;
+	background: white;
+}
+.buy div{
+	float: left;
+}
+.buy h1{
+	font-size: 40px;
+}
+input{
+	margin-top: 10px;
+	margin-right: 20px;
+	border: none;
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+	padding-left: 10px;
+	border: 2px solid silver;
+}
+.main{
+	padding-top: 60px;
+}
+
+/*ACTIONS*/
+
+.actions{
+	width: 400px;
+	height: 100px;
+}
+.actions .button1{
+	margin-right: 100px;
+}
+.actions1{
+	width: 400px;
+	height: 100px;
+}
+.actions1 .button1{
+	margin-right: 120px;
+}
+.actions .button1{
+	margin-right: 100px;
+}
+.actions2{
+	width: 400px;
+	height: 100px;
+}
+.actions2 .button1{
+	margin-right: 150px;
+}
+
+/*MEDIA*/
+@media screen and (min-width: 1921px){
+	nav button{
+		width: 160px;
+	}
+}
+@media screen and (max-width: 1919px){
+	.telephone, .monitors, .mouses, .computers, .more-content-telephones, .more-content-computers, .keyboards, .tablets, .playstation, .more-content-monitors, .more-content-keyboards, .more-content-mouses, .more-content-tablets, .more-content-playstation{
+		margin-left: 185px;
+	}
+	nav button{
+		width: 170px;
+	}
+	.video{
+		width: 600px;
+		top: 750px;
+		left: 450px;
+	}
+	.vidimg img{
+		height: 320px;
+		top: 700px;
+		left: 425px;
+	}
+	.pronas p{
+		width: 600px;
+	}
+	.gifka{
+		left: 1050px;
+	}
+	.support p{
+		width: 400px;
+	}
+	.support img{
+		left: 980px;
+	}
+}
+@media screen and (max-width: 1367px){
+	.telephone, .monitors, .mouses, .computers, .more-content-telephones, .more-content-computers, .keyboards, .tablets, .playstation, .more-content-monitors, .more-content-keyboards, .more-content-mouses, .more-content-tablets, .more-content-playstation{
+		margin-left: 75px;
+	}
+	nav{
+		margin-left: 475px;
+	}
+	nav button{
+		font-size: 13px;
+		width: 150px;
+	}
+	.nav1{
+		width: 120px;
+	}
+	.nav1 hr{
+		margin-left: 0;
+	}
+	.pronas, .contacts, .vidguky, .support{
+		margin-left: 250px;
+	}
+	.gifka{
+		left: 860px;
+	}
+	.support img{
+		top: 170px;
+		height: 350px;
+		left: 700px;
+	}
+	.drop{
+		margin-left: 0;
+		width: 185px;
+	}
+	.drop .katalog{
+		font-size: 18px;
+	}
+	.dropdown-content{
+		width: 200px;
+		height: 580px;
+	}
+	.dropdown-content div{
+		width: 200px;
+	}
+	.drop:hover .dropdown-content{
+		left: 0;
+	}
+	.icon{
+		left: 225px;
+	}
+	header .title{
+		margin-left: 275px;
+	}
+}
+@media screen and (max-width: 1281px){
+	.telephone, .monitors, .mouses, .computers, .more-content-telephones, .more-content-computers, .keyboards, .tablets, .playstation, .more-content-monitors, .more-content-keyboards, .more-content-mouses, .more-content-tablets, .more-content-playstation{
+		margin-left: 33px;
+	}
+	nav{
+		margin-left: 475px;
+	}
+	nav button{
+		font-size: 12px;
+		width: 140px;
+	}
+	.dropdown-content{
+		height: 525px;
+	}
+	.dropdown-content h5{
+		margin-top: 20px;
+	}
+	.dropdown-content div{
+		margin-bottom: 15px;
+		line-height: 10px;
+	}
+}
